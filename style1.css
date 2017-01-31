@@ -1,0 +1,77 @@
+html { font-size: 100%; }
+
+body {
+  background-color: #581845;
+  font: 100%/1.4 Arial, sans-serif;
+}
+
+header {
+  background-color: #C70039;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contain {
+  background-color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  height: 25rem;
+}
+
+aside {
+  background-color: #FFC300 ;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+}
+
+
+@media (min-width: 37.5rem) {
+  /* 600px */
+  .contain {
+    overflow: auto;
+    height: auto;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  main {
+    width: 60%;
+    float: left;
+  }
+
+  aside {
+    width: 40%;
+    float: right;
+    margin-right: 3.5rem;
+  }
+}
+
+@media (min-width: 56.25rem) {
+  /* 900px */
+  .contain {
+    overflow: auto;
+    width: 90%;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  main, aside {
+    float: left;
+  }
+
+  main {
+    padding-right: 1rem;
+    width: 60%;
+  }
+
+  aside {
+    width: 40%;
+  }
+}

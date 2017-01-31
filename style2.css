@@ -1,0 +1,86 @@
+html { font-size: 100%; }
+
+body {
+  background-color: #581845;
+  font: 100%/1.4 Arial, sans-serif;
+}
+
+header {
+  background-color: #C70039;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contain {
+  background-color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  height: 25rem;
+}
+
+aside {
+  background-color: #FFC300 ;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+}
+
+
+@media (min-width: 31.25rem) {
+  /* 500px */
+  .contain {
+    overflow: auto;
+    height: auto;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  main {
+    width: 60%;
+    float: left;
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+  }
+
+  aside {
+    width: 40%;
+    float: right;
+    margin-right: 3.5rem;
+    background-color: blue;
+  }
+}
+
+@media (min-width: 62.5rem) {
+  /* 1000px */
+  .contain {
+    overflow: auto;
+    width: 90%;
+  }
+  body{
+    background-color: white;
+  }
+
+  header {
+    text-align: center;
+    background-color: green;
+    color: black;
+  }
+
+  main, aside {
+    float: left;
+  }
+
+  main {
+    padding-right: 1rem;
+    width: 60%;
+  }
+
+  aside {
+    width: 40%;
+  }
+}
